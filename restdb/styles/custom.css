@@ -1,0 +1,295 @@
+
+/*
+    _________________________________________________
+   |                                                 |
+   |    Welcome to Christians CSS file!              |
+   |    Please add your CSS stuff in this file..     |
+   |                                                 |
+   |                                                 |
+   |   ______________________________________________|
+   |  /
+   | /
+   |/
+
+  \o/
+   | 
+  / \
+
+  */
+
+
+
+/*.xyz{color:blueviolet}
+.addedClass{background: lightpink}
+.addedClass a:link, .addedClass a:visited{ color: #fff!important}
+
+#item {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+#item:hover, #item:focus {background-color: #3e8e41}
+.menu {position: relative;display: inline-block}
+#submenu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #3e8e41;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#submenu a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+#submenu a:hover {background-color: #4CAF50}
+
+#output{font-size: 100px;color:red}
+#inputSearchField[type=text] {
+    width: 130px;box-sizing: border-box;border: 2px solid #ccc;border-radius: 4px;
+    font-size: 16px;background-color: white;
+    background-image: url('../images/searchicon.png');
+    background-position: 10px 10px; background-repeat: no-repeat;padding: 12px 20px 12px 40px;
+     -webkit-transition: width 0.4s ease-in-out; transition: width 0.4s ease-in-out}
+#inputSearchField[type=text]:focus {
+    width: 100%;
+}
+
+
+
+#jQueryTableLab table, #jQueryTableLab td, #jQueryTableLab th {
+    border: 1px solid indianred;
+    padding: 5px;
+}
+
+
+.activeLink{color:red!important}
+
+
+
+#div1,#div2,#div3,#div4{
+    font-size:80px;
+    color:mediumseagreen 
+}*/
+
+
+
+
+
+
+
+/* Labb 1 - jQuery III, göm texten först med CSS */
+/*#dialog { display: none; }
+.ui-dialog-content{background:#2d820a!important;color:#fff!important; font-size: 18px}
+.ui-dialog-titlebar {
+    background: #333;
+    color: #fff;
+}*/
+
+
+
+/* Local storage nav */
+.navLocalStorage{
+    list-style-type: none
+}
+.navLocalStorage li{
+    padding: 10px;
+    max-width: 300px;
+    background: beige;
+    border-top: 1px solid#555;
+    cursor: pointer
+}
+.activeLink{
+    background: #333!important;
+}
+.activeLink a{
+    color:#fff
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix-x:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+.container-x {
+  background: #e1e1e1;
+  width: 900px;
+}
+.time-block {
+  float: left;
+  width: 260px;
+margin: 0 20px 20px;
+  padding: 20px;
+  background: #fff;
+  box-sizing: border-box;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;  
+  margin-top: 20px;
+}
+.time-block p {
+  text-align: center;
+  font-size: 30px;  
+  margin: 10px 0;
+  color: #424344;
+}
+.time-block .local-time {
+  font-size: 35px; 
+  font-weight: bold;
+  color: #36578a;
+}
+
+
+
+
+.navLocalStorage{
+    list-style-type: none
+}
+.navLocalStorage li{
+    padding: 10px;
+    max-width: 300px;
+    background: beige;
+    border-top: 1px solid#555;
+}
+.activeLink{
+    background: #333!important;
+}
+.activeLink a{
+    color:#fff
+}
+
+
+
+
+
+
+
+
+
+
+#randPersonPhoto > img{
+    width:300px;
+    height:200px
+}
+#randPersonName{
+    font-weight: bold;
+    font-size: 16px;
+}
+#loader{
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid lightpink;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    position: relative;
+    top: -150px;
+    left: 90px;
+}
+    @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+    @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+/* API dryg.net */
+#flagDay{
+    position: relative;
+    top: -1px;
+    padding-right: 5px;
+}
+
+
+
+
+/*#myChart{
+    width:600px!important;
+    height:600px!important
+}*/
+
+/* RSS */
+#listResult{background: red}
+#rssTitle{display: block};
+
+/* flickR */
+#flickRimages > img{
+    display: block;
+    width: 300px;
+    padding: 5px;
+    min-width: 250px!important;
+}
+
+#bilden img{
+    width: 350px;
+    height: 300px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+     margin-left: 400px;
+     margin-top: 20px;
+     
+     
+}
+
+#divven{
+    width: 350px;
+    height: 150px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background: black;
+    margin-top: 0px;
+     margin-left: 400px;
+     
+}
+
+h4{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+#storadivven{
+
+    width: 1200px;
+    height: 750px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background: black;
+    background-image: url("http://wallpapercave.com/wp/0JydX3Y.jpg");
+}
+
+h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+/*body{
+       background-image: url("http://hunsci.com/data/out/143/628256.jpg");
+
+    
+}*/
